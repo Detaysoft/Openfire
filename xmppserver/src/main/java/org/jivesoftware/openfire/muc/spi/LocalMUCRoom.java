@@ -585,6 +585,7 @@ public class LocalMUCRoom implements MUCRoom, GroupEventListener {
                         if (occupantsByFullJID.get(user.getAddress()) != null)
                             clientOnlyJoin = true;
                         break;
+                        
                     }
                 }
             }
